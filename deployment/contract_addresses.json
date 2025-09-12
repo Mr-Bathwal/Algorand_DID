@@ -1,0 +1,61 @@
+{
+  "network": "testnet",
+  "deployer_address": "JNN5FFPWGCW3WZBO3AGIHVJPGSQKGJJRMWYYQ3WXGCATRRLKJNLFVSATDM",
+  "deployment_timestamp": "2025-09-11T22:57:54.633008+00:00",
+  "contracts": {
+    "organization_registry": {
+      "app_id": 745680367,
+      "address": "PTWNJTFOOQPMMSMA3EZJPQT5GZXTDJTYK6YRC7IY6BEHYLAIDY3X6T76FQ",
+      "deployer": "JNN5FFPWGCW3WZBO3AGIHVJPGSQKGJJRMWYYQ3WXGCATRRLKJNLFVSATDM",
+      "deployment_txn": null
+    },
+    "user_identity": {
+      "app_id": 745680430,
+      "address": "QOV3RLSWRZCKUIJNQOAD2D2WUNHVSFV4QRY3LF6X4WD4BEMUIO66PIGZLM",
+      "deployer": "JNN5FFPWGCW3WZBO3AGIHVJPGSQKGJJRMWYYQ3WXGCATRRLKJNLFVSATDM",
+      "deployment_txn": null
+    },
+    "trust_score": {
+      "app_id": 745680432,
+      "address": "GJ5FFFX737KYW3ETGGZZ73BPUCEL7PVWSDYV7WP77ZLTXAXLVEBBZUVA64",
+      "deployer": "JNN5FFPWGCW3WZBO3AGIHVJPGSQKGJJRMWYYQ3WXGCATRRLKJNLFVSATDM",
+      "deployment_txn": null
+    },
+    "certificate_management": {
+      "app_id": 745680498,
+      "address": "XVRC637FC7UFV4TCMZ4C4HNQNNXHDO6XZ3FIZLDCWQWIXXNXFKYCTHLZUY",
+      "deployer": "JNN5FFPWGCW3WZBO3AGIHVJPGSQKGJJRMWYYQ3WXGCATRRLKJNLFVSATDM",
+      "deployment_txn": null
+    },
+    "badge_system": {
+      "app_id": 745680508,
+      "address": "BW3MSJAQFCZXSSX4JEZ6MOJDDTUCG5UYOUHXUHF3B2WHZGZTAZ62NVTI4E",
+      "deployer": "JNN5FFPWGCW3WZBO3AGIHVJPGSQKGJJRMWYYQ3WXGCATRRLKJNLFVSATDM",
+      "deployment_txn": null
+    },
+    "smart_wallet": {
+      "app_id": 745680538,
+      "address": "JYXRKNFCRGNOEOS44TYFV4RLLZAHGRSEMCYE5JNZHB57JH3HR6AKHVOQ6Q",
+      "deployer": "JNN5FFPWGCW3WZBO3AGIHVJPGSQKGJJRMWYYQ3WXGCATRRLKJNLFVSATDM",
+      "deployment_txn": null
+    },
+    "governance": {
+      "app_id": 745680789,
+      "address": "L2HOWUHQK62DV6XRVB6PK2DAW2Q5JOP24QC5EBKJ2FI4UFDWP74LYUCHPY",
+      "deployer": "JNN5FFPWGCW3WZBO3AGIHVJPGSQKGJJRMWYYQ3WXGCATRRLKJNLFVSATDM",
+      "deployment_txn": null
+    },
+    "dispute_resolution": {
+      "app_id": 745680790,
+      "address": "6GO325DAKB5JC54N2BJSRXPUFNMEBFXG6LALHM25IRYJNE4ATAYBYKHWRI",
+      "deployer": "JNN5FFPWGCW3WZBO3AGIHVJPGSQKGJJRMWYYQ3WXGCATRRLKJNLFVSATDM",
+      "deployment_txn": null
+    },
+    "paymaster": {
+      "app_id": 745692491,
+      "address": "7WFIZJ7NVSZJI6BZNPAK2ADOR7KCYLRFIDLV2EGZ637V77XKC65OAEFFDI",
+      "deployer": "JNN5FFPWGCW3WZBO3AGIHVJPGSQKGJJRMWYYQ3WXGCATRRLKJNLFVSATDM",
+      "deployment_txn": null
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "decentra-credentials-frontend-hooks",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "ts-node --esm src/scripts/demo_register_user.ts",
+    "demo:register_user": "ts-node --esm src/scripts/demo_register_user.ts"
+  },
+  "dependencies": {
+    "algosdk": "^2.5.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
+
