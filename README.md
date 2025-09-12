@@ -1,6 +1,10 @@
 # DID-Algorand — Self-Sovereign Identity & Credential Platform
 
-![Algorand logo](https://cryptologos.cc/logos/algorand-algo-logo.png?v=024)
+<div align="center">
+  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/algorand-algo-icon.svg" width="60" />
+</div>
+
+
 
 **DID-Algorand** is a privacy-first, self-sovereign identity platform built natively on Algorand. Users can create global, portable digital identities, receive verifiable credentials (e.g., university, work, KYC), prove claims using zero-knowledge proofs, and recover accounts via trusted guardians — all with *gasless, lightning-fast* UX.
 
