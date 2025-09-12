@@ -4,7 +4,7 @@
 
 **DID-Algorand** is a privacy-first, self-sovereign identity platform built natively on Algorand. Users can create global, portable digital identities, receive verifiable credentials (e.g., university, work, KYC), prove claims using zero-knowledge proofs, and recover accounts via trusted guardians — all with *gasless, lightning-fast* UX.
 
-**Hackathon Demo**: Built by IIT Hyderabad students for Algorand Hackathons and beyond.
+**Hackathon Demo**
 
 ---
 
