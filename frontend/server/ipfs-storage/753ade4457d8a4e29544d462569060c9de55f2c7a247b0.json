@@ -1,0 +1,10 @@
+{
+  "dataType": "ITR_VERIFICATION",
+  "timestamp": "2025-09-09T23:31:04.138Z",
+  "ipfsHash": "Qmfcc83eab236d47ecf655dbfe5f47640a9f4787cdb673",
+  "summary": {
+    "assessmentYear": "2024-25",
+    "hasIncome": true,
+    "hasFilingDate": true
+  }
+}

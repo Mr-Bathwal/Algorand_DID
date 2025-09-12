@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  /* Removed -webkit-text-size-adjust for browser compatibility */
+  text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-smooth: antialiased;
+}
+
+/* dark glass effect */
+.glass {
+  background: rgba(15, 23, 42, 0.65);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* dark crystalline background */
+.crystal-bg {
+  background-color: #0b1220;
+  background-image:
+    radial-gradient(18px 18px at 20px 20px, rgba(2,132,199,0.08) 25%, transparent 26%),
+    radial-gradient(22px 22px at 60px 60px, rgba(99,102,241,0.08) 25%, transparent 26%),
+    radial-gradient(26px 26px at 100px 20px, rgba(16,185,129,0.08) 25%, transparent 26%);
+  background-size: 120px 120px;
+}
+
+/* Flag ribbon removed - no more slider animation */
+
+/* IE compatibility for flexbox - Comprehensive support */
+.flex {
+  display: -ms-flexbox; /* IE 10+ */
+  display: -webkit-flex; /* Safari 6.1+ */
+  display: flex;
+}
+
+.flex-col {
+  -ms-flex-direction: column; /* IE 10+ */
+  -webkit-flex-direction: column; /* Safari 6.1+ */
+  flex-direction: column;
+}
+
+.flex-row {
+  -ms-flex-direction: row; /* IE 10+ */
+  -webkit-flex-direction: row; /* Safari 6.1+ */
+  flex-direction: row;
+}
+
+.items-center {
+  -ms-flex-align: center; /* IE 10+ */
+  -webkit-align-items: center; /* Safari 6.1+ */
+  align-items: center;
+}
+
+.justify-center {
+  -ms-flex-pack: center; /* IE 10+ */
+  -webkit-justify-content: center; /* Safari 6.1+ */
+  justify-content: center;
+}
+
+.justify-between {
+  -ms-flex-pack: justify; /* IE 10+ */
+  -webkit-justify-content: space-between; /* Safari 6.1+ */
+  justify-content: space-between;
+}
+
+/* Additional IE flex support */
+.items-start {
+  -ms-flex-align: start; /* IE 10+ */
+  -webkit-align-items: flex-start; /* Safari 6.1+ */
+  align-items: flex-start;
+}
+
+.items-end {
+  -ms-flex-align: end; /* IE 10+ */
+  -webkit-align-items: flex-end; /* Safari 6.1+ */
+  align-items: flex-end;
+}
+
+.justify-start {
+  -ms-flex-pack: start; /* IE 10+ */
+  -webkit-justify-content: flex-start; /* Safari 6.1+ */
+  justify-content: flex-start;
+}
+
+.justify-end {
+  -ms-flex-pack: end; /* IE 10+ */
+  -webkit-justify-content: flex-end; /* Safari 6.1+ */
+  justify-content: flex-end;
+}
+

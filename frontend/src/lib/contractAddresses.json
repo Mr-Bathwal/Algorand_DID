@@ -1,0 +1,38 @@
+{
+  "organization_registry": {
+    "app_id": 745680367,
+    "escrow_address": "TBD"
+  },
+  "user_identity": {
+    "app_id": 745680430,
+    "escrow_address": "TBD"
+  },
+  "trust_score": {
+    "app_id": 745680432,
+    "escrow_address": "TBD"
+  },
+  "certificate_management": {
+    "app_id": 745680498,
+    "escrow_address": "TBD"
+  },
+  "badge_system": {
+    "app_id": 745680508,
+    "escrow_address": "TBD"
+  },
+  "smart_wallet": {
+    "app_id": 745680538,
+    "escrow_address": "TBD"
+  },
+  "governance": {
+    "app_id": 745680789,
+    "escrow_address": "TBD"
+  },
+  "dispute_resolution": {
+    "app_id": 745680790,
+    "escrow_address": "TBD"
+  },
+  "paymaster": {
+    "app_id": 745692491,
+    "escrow_address": "TBD"
+  }
+}

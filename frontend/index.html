@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- Charset MUST be first for optimal performance -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#0f172a" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <!-- CSP COMPLETELY DISABLED for development -->
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-eval' 'unsafe-inline' 'unsafe-hashes' data: blob:; script-src * 'unsafe-eval' 'unsafe-inline' 'unsafe-hashes' 'wasm-unsafe-eval' data: blob:; connect-src * data: blob:; img-src * data: blob:; style-src * 'unsafe-inline' 'unsafe-hashes'; font-src * data:; media-src * data: blob:; worker-src * data: blob:; child-src * data: blob:; frame-src * data: blob:; object-src *; base-uri *; form-action *; upgrade-insecure-requests;" /> -->
+    <title>Identity Verification dApp</title>
+  </head>
+  <body class="bg-slate-950 text-slate-100">
+    <div id="root"></div>
+    <!-- Buffer and global polyfills must be loaded first -->
+    <script>
+      // Define global first
+      if (typeof global === 'undefined') {
+        window.global = globalThis;
+      }
+      
+      // Immediate Buffer polyfill
+      if (typeof Buffer === 'undefined') {
+        // Create a minimal Buffer-like object
+        window.Buffer = globalThis.Buffer = global.Buffer = {
+          from: function(data) { return new Uint8Array(data); },
+          isBuffer: function(obj) { return obj instanceof Uint8Array; },
+          alloc: function(size) { return new Uint8Array(size); }
+        };
+      }
+    </script>
+    <script type="module" src="/src/main.tsx?v=8&t=1734567890&cache=bust&force=clear&charset=absolute-first"></script>
+  </body>
+</html>
+

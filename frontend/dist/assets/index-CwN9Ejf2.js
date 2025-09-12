@@ -1,0 +1,1 @@
+import{j0 as t,i_ as i,iZ as o,iX as l,i$ as n,iW as r,iY as b}from"./index-Benq8rWb.js";/** @license See the LICENSE file. */const e="4.22.0";export{t as GPGPUContext,i as MathBackendWebGL,o as forceHalfFloat,l as gpgpu_util,n as setWebGLContext,e as version_webgl,r as webgl,b as webgl_util};
