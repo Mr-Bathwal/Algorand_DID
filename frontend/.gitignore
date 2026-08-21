@@ -1,1 +1,12 @@
 node_modules
+dist
+dist-ssr
+.vite
+.vs
+.vscode/*
+!.vscode/extensions.json
+
+# Secrets — never commit
+.env
+.env.local
+*.local

@@ -1,0 +1,32 @@
+# ── Secrets (NEVER commit) ──
+.env
+.env.local
+*/.env
+*.key
+*.mnemonic
+
+# ── Python ──
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# ── Node / frontend ──
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# ── Editor / OS ──
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Build / deploy logs ──
+*.out
